@@ -14,6 +14,8 @@
     <name>DateConverter</name>
     <description>DateConverter</description>
     <properties>
+        <sonar.organization>pavel-shcherbo</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <java.version>21</java.version>
     </properties>
     <dependencies>
@@ -43,10 +45,6 @@
             </plugin>
         </plugins>
     </build>
-    
-    <properties>
-        <sonar.organization>pavel-shcherbo</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
-</project>
 
+
+</project>
